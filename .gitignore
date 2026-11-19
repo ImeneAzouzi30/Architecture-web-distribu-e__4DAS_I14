@@ -1,0 +1,38 @@
+# IDE / Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# Build artifacts (Java / Maven)
+**/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node.js
+**/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
